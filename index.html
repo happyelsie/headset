@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/00d4d69425.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home | Phono</title>
+  </head>
+  <body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">Phono</a>
+        <ul class="nav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>The headphones of the future</h1>
+          <p>
+            Like You, We Love Music ♫. And we believe a headphone is more than
+            just an instrument for sound. It’s the key to a mind-blowing moment
+            of emotion, bringing you closer to your music, and yourself.
+          </p>
+        </div>
+        <img src="img/whiteheadset.jpg" alt="White Headset" />
+      </div>
+    </section>
+    <section class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner">
+          <h3>Loud & Clear</h3>
+          <h2>People Aren't Hearing All the Music</h2>
+          <p>
+            Whether you're in the gym, at home or on-the-go, Phono Headphones
+            deliver the ultimate combination of comfort, freedom and premium
+            sound you expect.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-c">
+      <div class="gallery">
+        <a href="img/manwithheadset.jpg" class="big"
+          ><img src="img/manwithheadset.jpg" alt="white headset"
+        /></a>
+        <a href="img/headsetwithphone.jpg" class="big"
+          ><img src="img/headsetwithphone.jpg" alt="headset with phone"
+        /></a>
+        <a href="img/brownheadset.jpg" class="big"
+          ><img src="img/brownheadset.jpg" alt="brown headset"
+        /></a>
+        <a href="img/boywithheadset.jpg" class="big"
+          ><img src="img/boywithheadset.jpg" alt="boy with headset"
+        /></a>
+        <a href="img/whiteheadset2.jpg" class="big"
+          ><img src="img/whiteheadset2.jpg" alt="white headset 2"
+        /></a>
+        <a href="img/blurheadset.jpg" class="big"
+          ><img src="img/blurheadset.jpg" alt="blur"
+        /></a>
+      </div>
+    </section>
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Contact us on</h2>
+          <a href="http://twitter.com/" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="http://facebook.com/" target="_blank">
+            <i class="fab fa-facebook fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function () {
+        const $gallery = $('.gallery a').simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
